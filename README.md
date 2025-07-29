@@ -17,4 +17,11 @@ To install the package from GitHub:
 
 ```r
 # install.packages("devtools")  # if not already installed
-devtools::install_github("yourusername/SamplerPoisson")
+devtools::install_github("agardini/SamplerPoisson")
+```
+
+## References
+
+- Gardini, A., Greco, F., & Trivisano, C. (2025). A note on auxiliary mixture sampling for Bayesian Poisson models. _arXiv preprint_ url: https://arxiv.org/abs/2502.04938
+- Frühwirth-Schnatter, S., Frühwirth, R., Held, L., & Rue, H. (2009). Improved auxiliary mixture sampling for hierarchical models of non-Gaussian data. _Statistics and Computing_, 19(4), 479.
+
