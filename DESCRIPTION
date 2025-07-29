@@ -1,0 +1,34 @@
+Package: SamplerPoisson
+Title: Fitting Bayesian Poisson models through different versions of auximialy mixture sampling schemes
+Version: 0.0.2
+Description: The package allows to fit latent Gaussian models under Poisson likelihood, along with the basic Poisson regression, through the basic improved auxiliary mixture sampling scheme described in Frühwirth-Schnatter et al. (2009) <doi:10.1007/s11222-008-9109-4> and its robust version introduced in Gardini et. al (2025) <doi:10.48550/arXiv.2502.04938>.
+Authors@R: 
+    c(person(given = "Aldo",
+           family = "Gardini",
+           role = c("aut", "cre"),
+           email = "aldo.gardini@unibo.it"),
+      person(given = "Fedele",
+           family = "Greco",
+           role = c("aut"),
+           email = "fedele.greco@unibo.it"))
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+LazyDataCompression: xz
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends: 
+  R (>= 3.5.0)
+LinkingTo: 
+    Rcpp,
+    RcppEigen,
+    RcppGSL,
+    RcppDist
+Imports: 
+    purrr,
+    dplyr,
+    Rcpp,
+    coda,
+    MCMCvis,
+    magrittr,
+    lubridate
